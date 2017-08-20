@@ -1,0 +1,63 @@
+.jumbotron.jumbotron-fluid {
+	background-color: #ffffff;
+	height: 150px;
+}
+
+.media-object {
+	height: 200px;
+	border-radius: 360px;
+}
+
+.media-body {
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+}
+
+#sideHead {
+	padding: 20px;
+}
+
+#bio {
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+}
+
+.social {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+#social-cont {
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.portfolio {
+	width: 100%;
+}
+
+.demo-card-wide.mdl-card {
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 300px;
+	display: inline-block;
+}
+.demo-card-wide > .mdl-card__title {
+	color: #fff;
+	height: auto;
+	padding: 0px;
+}
+.demo-card-wide > .mdl-card__menu {
+	color: #fff;
+}
+
+.mdl-card__supporting-text {
+	height: 80px;
+	margin: auto;
+}
