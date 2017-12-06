@@ -1,6 +1,10 @@
+#navbarNavAltMarkup {
+    padding-right: 1%;
+}
+
 .headerHolder {
     height: 500px;
-    background-image: url(../images/designTeam.jpg);
+    background-image: url(../images/desktop.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -20,7 +24,85 @@
     background-color: rgba(255, 255, 255, 0.6);
     height: 100%;
     width: 100%;
+    text-align: center;
 }
+
+.designText {
+    height: 80%;
+}
+
+.designWork {
+    text-align: center;
+}
+
+.btn-light {
+    border-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 0;
+    width: 110px;
+}
+.btn-light:hover {
+    border-color: rgba(0, 0, 0, 1);
+}
+.btn-light.focus, .btn-light:focus {
+    box-shadow: none !important;
+}
+.btn-light:not([disabled]):not(.disabled).active,
+.btn-light:not([disabled]):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: none !important;
+}
+
+.skillBar {
+    min-height: 300px;
+    text-align: center;
+}
+
+.skillHeader {
+    margin: 3% 0 1% 0;
+}
+
+.skillList {
+    height: 100%;
+    padding: 15%;
+}
+
+.contactBar {
+    height: 150px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contactHolder {
+    background-color: rgba(57, 57, 57, 0.95);
+    height: 100%;
+    color: #ffffff;
+}
+
+.contactBarBtn {
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+.contactBarBtn:hover {
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
 
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,

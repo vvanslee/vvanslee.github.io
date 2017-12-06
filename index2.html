@@ -19,15 +19,16 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Victor van Slee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
+                <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+                <a class="nav-item nav-link" href="#">Portfolio</a>
+                <a class="nav-item nav-link" href="#">Resume</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -39,27 +40,88 @@
                     <div class="col-sm-6">
                         <div class="infoPanel">
                             <div class="infoBack">
-                                INFORMATION
-                                <button type="button" class="btn btn-light">design work</button>
+                                <div class="designText">
+                                    INFORMATION
+                                </div>
+                                <div class="designWork">
+                                    <button type="button" class="btn btn-light">design work</button>
+                                </div>     
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        BUTTON
+                        <div class="infoPanel">
+                            <div class="infoBack">
+                                <div class="designText">
+                                    INFORMATION
+                                </div>
+                                <div class="designWork">
+                                    <button type="button" class="btn btn-light">dev work</button>
+                                </div>     
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12"></div>
+        <div class="col-sm-12 skillBar">
+            <div class="skillHeader">
+                SKILLS
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-2">
+                    <div class="skillList">
+                        Axure, Illustrator, Photoshop, inDesign, Bootstrap, UiKit
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="skillList">
+                        HTML5, CSS3, javaScript, JQuery, node.js, express.js, handlebars, react.js
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="skillList">
+                        Heroku, mongoDB, noSQL, Firebase, MySQL 
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="col-sm-12"></div>
+        <div class="col-sm-12 contactBar">
+            <div class="contactHolder">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Looking for a UX Designer
+                        <br>
+                        with dev experience?
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-light contactBarBtn">contact me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="col-sm-12"></div>
+        <div class="col-sm-12">
+            PORTFOLIO
+        </div>
     </div>
-
+    <div class="row">
+        <div class="col-sm-12">
+            RESUME
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <a name="contact">
+            CONTACT ME
+        </div>
+    </div>
 </body>
 </html>
