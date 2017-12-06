@@ -1,7 +1,3 @@
-#navbarNavAltMarkup {
-    padding-right: 1%;
-}
-
 .headerHolder {
     height: 500px;
     background-image: url(../images/desktop.jpg);
@@ -128,3 +124,16 @@
 .row {
     margin: 0;
 }
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: rgb(47, 47, 47);
+  }
+
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
