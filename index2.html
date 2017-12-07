@@ -14,6 +14,11 @@
     <!-- font awesome cdn -->
     <script src="https://use.fontawesome.com/21f4824a4e.js"></script>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /> -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -82,12 +87,12 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="skillList">
-                        HTML5, CSS3, javaScript, JQuery, node.js, express.js, handlebars, react.js
+                        HTML5, CSS3, JavaScript, JQuery, AJAX, Node.js, Express.js, Handlebars, React.js
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="skillList">
-                        Heroku, mongoDB, noSQL, Firebase, MySQL, Sequelize, AJAX, git
+                        Heroku, mongoDB, noSQL, Firebase, MySQL, Sequelize, git
                     </div>
                 </div>
                 <div class="col-sm-3"></div>
@@ -125,7 +130,7 @@
     </div>
     <div class="row">
         <div class="col-sm-12 contactMe">
-            <a name="contact">
+            <a id="contact">
             <div class="contactMeHolder">
                 <div class="contactHeader">
                     CONTACT ME
@@ -138,23 +143,35 @@
                         <a class="phoneNumberLink" href="tel:+16306564362">(630) 656 4362</a>
                     </div>
                     <div class="emailLocation">
-                        <!-- <img class="mailIcon" src="assets/images/mail.png"> -->
-                        
                         <i class="fa fa-address-card-o" aria-hidden="true"></i>
                         vvanslee@gmail.com
-                        <!-- <img class="locationIcon" src="assets/images/pin.png"> -->
+                    </div>
+                    <div class="emailLocation">
                         <i class="fa fa-map-o" aria-hidden="true"></i>
                         Chicago, IL
                     </div>
                     <div class="socialMedia">
-                        <a class="githubLink" href="https://github.com/vvanslee" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                        <a class="linkedInLink" href="https:www.linkedin.com/in/vvanslee" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                        <!-- <a class="linkedInLink" href="https://github.com/vvanslee" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a> -->
-                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-
+                        <a class="socialLink" href="https://github.com/vvanslee" target="_blank">
+                            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a class="socialLink" href="https:www.linkedin.com/in/vvanslee" target="_blank">
+                            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a class="socialLink" href="javascript:void(0)" id="mailbutton">
+                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <footer>
+                Designed and Developed by
+                <br>
+                Victor van Slee &copy 2017
+            </footer>
         </div>
     </div>
 </body>
