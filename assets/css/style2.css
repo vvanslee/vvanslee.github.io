@@ -1,5 +1,5 @@
 .headerHolder {
-    height: 500px;
+    height: 700px;
     background-image: url(../images/desktop.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -67,8 +67,8 @@
 }
 
 .contactBar {
-    height: 150px;
-    background-image: url(../images/desktop.jpg);
+    min-height: 175px;
+    background-image: url(../images/designTeamBW.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -80,10 +80,25 @@
     color: #ffffff;
 }
 
+.queOne {
+    font-size: 30px;
+    color: #d3e3de;
+    padding: 5% 3% 2% 3%;
+    text-align: right;
+}
+
+.queTwo {
+    font-size: 20px;
+    color: #bcd3cd;
+    padding-right: 5%;
+    text-align: right;
+}
+
 .contactBarBtn {
     border-color: #ffffff;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
+    margin: 10% 0 10% 15%;
 }
 
 .contactBarBtn:hover {
@@ -93,9 +108,29 @@
 }
 
 
+.contactMe {
+    height: 600px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
 
+.contactMeHolder {
+    height: 100%;
+}
 
+.contactHeader {
+    padding: 20px;
+}
 
+.contactInfo {
+    height: 80%;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .6);
+}
 
 
 
@@ -118,7 +153,6 @@
 .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7,
 .col-xl-8, .col-xl-9, .col-xl-auto {
     padding: 0;
-    
 }
 
 .row {
