@@ -132,7 +132,49 @@
     background-color: rgba(255, 255, 255, .6);
 }
 
+.nameHeader {
+    padding: 10px;
+    font-size: 20px;
+}
 
+.phoneNumber {
+    font-size: 20px;
+}
+
+.phoneNumberLink {
+    color: #000000 !important;
+}
+
+.emailLocation{
+    font-size: 16px;
+}
+
+.mailIcon {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.locationIcon {
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.githubLink {
+    color: #000000;
+}
+
+.githubLink:hover {
+    color: #6d6d6d;
+}
+
+.linkedInLink {
+    color: #000000;
+}
+
+.linkedInLink:hover {
+    color: #6d6d6d;
+}
 
 
 .col, .col-1, .col-10, .col-11, .col-12,
