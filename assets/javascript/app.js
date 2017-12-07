@@ -19,7 +19,7 @@ $(document).ready(function(){
         // Using jQuery's animate() method to add smooth page scroll
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 1500, function(){
+        }, 1400, function(){
           window.location.hash = hash;
         });
       } // End if
