@@ -124,6 +124,91 @@
     height: 400px;
 }
 
+
+a.tooltips {
+    position: relative;
+    display: inline;
+    color: #000000;
+  }
+  a.tooltips span {
+    position: absolute;
+    width: 120px;
+    color: #FFFFFF;
+    background: #000000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 0px;
+    font-size: 14px;
+  }
+  a.tooltips span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    width: 0; height: 0;
+    border-right: 8px solid #000000;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
+  a:hover.tooltips span {
+    visibility: visible;
+    opacity: 0.8;
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: 15px;
+    z-index: 999;
+  }
+
+
+
+.resumeRow {
+    padding: 60px;
+}
+
+.resumeHeader {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.resumeColumn {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+
+.resumeContact {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.resumeMission {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.resumeDate {
+    float: right;
+}
+
+.resumeTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
 .contactHeader {
     padding: 20px;
     font-size: 20px;
