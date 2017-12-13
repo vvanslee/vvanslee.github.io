@@ -294,8 +294,18 @@ footer {
 
 
 .carouselContainer {
-    max-width: 50%;
+    margin: auto;
+    padding-top: 3%;
+    max-width: 80%;
     color: #000000 !important;
+}
+
+.carousel-control-prev {
+    left: -10%;
+}
+
+.carousel-control-next {
+    right: -10%;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -314,6 +324,10 @@ footer {
 
 .carousel-caption {
     color: #000000;
+}
+
+.carousel-indicators {
+    bottom: -40px;
 }
 
 
