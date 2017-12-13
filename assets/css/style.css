@@ -40,12 +40,15 @@
     border-radius: 0;
     width: 110px;
 }
+
 .btn-light:hover {
     border-color: rgba(0, 0, 0, 1);
 }
+
 .btn-light.focus, .btn-light:focus {
     box-shadow: none !important;
 }
+
 .btn-light:not([disabled]):not(.disabled).active,
 .btn-light:not([disabled]):not(.disabled):active,
 .show>.btn-light.dropdown-toggle {
@@ -118,26 +121,13 @@
     color: #ffffff;
 }
 
-.contactMe {
-    height: 470px;
-    background-image: url(../images/desktop.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-}
-
-.contactMeHolder {
-    height: 400px;
-}
-
-
 a.tooltips {
     position: relative;
     display: inline;
     color: #000000;
-  }
-  a.tooltips span {
+}
+
+a.tooltips span {
     position: absolute;
     width: 120px;
     color: #FFFFFF;
@@ -148,8 +138,9 @@ a.tooltips {
     visibility: hidden;
     border-radius: 0px;
     font-size: 14px;
-  }
-  a.tooltips span:after {
+}
+
+a.tooltips span:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -159,8 +150,9 @@ a.tooltips {
     border-right: 8px solid #000000;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
-  }
-  a:hover.tooltips span {
+}
+
+a:hover.tooltips span {
     visibility: visible;
     opacity: 0.8;
     left: 100%;
@@ -168,9 +160,7 @@ a.tooltips {
     margin-top: -15px;
     margin-left: 15px;
     z-index: 999;
-  }
-
-
+}
 
 .resumeRow {
     padding: 60px;
@@ -208,70 +198,66 @@ a.tooltips {
     margin-bottom: 10px;
 }
 
+.contactMe {
+    height: 320px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
 
-
-
-
-
-
-
+.contactMeHolder {
+    height: 100%;
+    background-color: rgba(48, 48, 48, 0.95);
+    color: #ffffff;
+}
 
 .contactHeader {
     padding: 20px;
     font-size: 20px;
-    -webkit-box-shadow: inset 0px 0px 25px -1px rgba(69,69,69,0.22);
+    /* -webkit-box-shadow: inset 0px 0px 25px -1px rgba(69,69,69,0.22);
     -moz-box-shadow: inset 0px 0px 25px -1px rgba(69,69,69,0.22);
-    box-shadow: inset 0px 0px 25px -1px rgba(69,69,69,0.22);
+    box-shadow: inset 0px 0px 25px -1px rgba(69,69,69,0.22); */
 }
 
 .contactInfo {
     height: 100%;
     width: 100%;
     margin: auto;
-    background-color: rgba(255, 255, 255, .8);
+    /* background-color: rgba(57, 57, 57, 0.95); */
+    color: #ffffff;
 }
 
 .nameHeader {
-    padding: 50px 10px 10px 10px;
+    padding: 30px 10px 20px 10px;
     font-size: 30px;
 }
 
 .phoneNumber {
-    font-size: 35px;
-    margin-bottom: 40px;
-    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .phoneNumberLink {
-    color: #000000 !important;
+    color: #ffffff !important;
 }
 
 .emailLocation{
     font-size: 20px;
 }
 
-.mailIcon {
-    height: 15px;
-    margin-right: 10px;
-}
-
-.locationIcon {
-    height: 20px;
-    margin-left: 30px;
-    margin-right: 5px;
-}
-
 .socialMedia {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .socialLink {
-    color: #4D4D4D;
+    color: #ffffff;
     margin: 10px;
 }
 
 .socialLink:hover {
-    color: #000000;
+    color: rgb(136, 136, 136);
 }
 
 a:hover {
@@ -291,7 +277,6 @@ footer {
     -moz-box-shadow: inset 0px 5px 15px -1px rgba(69,69,69,0.18);
     box-shadow: inset 0px 5px 15px -1px rgba(69,69,69,0.18);
 }
-
 
 .carouselContainer {
     margin: auto;
@@ -329,7 +314,6 @@ footer {
 .carousel-indicators {
     bottom: -40px;
 }
-
 
 .carousel-indicators .active {
     background-color: #000000;
