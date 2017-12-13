@@ -110,6 +110,13 @@
     color: #ffffff;
 }
 
+.contactBtnFont {
+    color: #ffffff;
+}
+
+.contactBtnFont:hover {
+    color: #ffffff;
+}
 
 .contactMe {
     height: 470px;
