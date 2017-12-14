@@ -183,6 +183,10 @@ a:hover.tooltips span {
     text-align: center; 
 }
 
+.resumeNumberLink {
+    color: #000000 !important;
+}
+
 .resumeMission {
     text-align: center;
     font-size: 16px;
@@ -311,17 +315,76 @@ footer {
     color: #000000;
 }
 
-.carousel-indicators {
-    bottom: -40px;
+/* toggle switch */
+
+.toggleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px; 
 }
 
-.carousel-indicators .active {
-    background-color: #000000;
+.toggleLabel {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.carousel-indicators li {
-    background-color: #00000059;
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    margin-bottom: -5px;
 }
+  
+.switch input {display:none;}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+    box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+}
+  
+input:checked + .slider {
+    background-color: #ccc;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
 
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,

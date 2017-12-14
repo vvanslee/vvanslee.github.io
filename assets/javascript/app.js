@@ -24,3 +24,18 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+// toggle switch
+$(document).ready(function(){
+  $("#devGallery").hide();
+  var checkboxes = $('input[id="gallerySwitch"]');
+  checkboxes.change(function() {
+    if ($(this).prop('checked') === true) {
+      $("#designGallery").hide();
+      $("#devGallery").show();
+    } else {
+      $("#devGallery").hide();
+      $("#designGallery").show();
+    }
+  })
+});
