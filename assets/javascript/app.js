@@ -27,13 +27,18 @@ $(document).ready(function(){
 
 // toggle switch
 $(document).ready(function(){
+  $("#devLabel").hide();
   $("#devGallery").hide();
   var checkboxes = $('input[id="gallerySwitch"]');
   checkboxes.change(function() {
     if ($(this).prop('checked') === true) {
+      $("#devLabel").show();
+      $("#designLabel").hide();
       $("#designGallery").hide();
       $("#devGallery").show();
     } else {
+      $("#devLabel").hide();
+      $("#designLabel").show();
       $("#devGallery").hide();
       $("#designGallery").show();
     }

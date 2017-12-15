@@ -282,19 +282,19 @@ footer {
     box-shadow: inset 0px 5px 15px -1px rgba(69,69,69,0.18);
 }
 
+.headerContainer {
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .carouselContainer {
     margin: auto;
     padding-top: 3%;
+    padding-bottom: 3%;
     max-width: 80%;
     color: #000000 !important;
-}
-
-.carousel-control-prev {
-    left: -10%;
-}
-
-.carousel-control-next {
-    right: -10%;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -304,15 +304,22 @@ footer {
 .carousel-control-prev-icon {
     background-image: url("../images/arrow-left.png");
     height: 15%;
+    min-height: 80px;
 }
 
 .carousel-control-next-icon {
     background-image: url("../images/arrow-right.png");
     height: 15%;
+    min-height: 80px;
 }
 
 .carousel-caption {
     color: #000000;
+}
+
+.galleryLabel {
+    margin-top: 40px;
+    font-size: 25px;
 }
 
 /* toggle switch */
@@ -321,8 +328,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 40px; 
+    margin-top: 1%;
+    margin-bottom: 4%; 
 }
 
 .toggleLabel {
@@ -335,7 +342,7 @@ footer {
     display: inline-block;
     width: 49px;
     height: 20px;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
 }
   
 .switch input {display:none;}
@@ -382,6 +389,11 @@ input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+}
+
+.galleryContainer {
+    margin: auto;
+    text-align: center;
 }
 
 .demoGif {
