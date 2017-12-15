@@ -384,6 +384,10 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
+.demoGif {
+    width: 80%;
+}
+
 
 
 .col, .col-1, .col-10, .col-11, .col-12,
