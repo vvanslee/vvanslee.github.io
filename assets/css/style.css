@@ -322,6 +322,57 @@ footer {
     font-size: 25px;
 }
 
+/* Contact Bar (Portfolio) */
+.contactBar2 {
+    min-height: 150px;
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contactHolder2 {
+    background-color: rgba(57, 57, 57, 0.95);
+    height: 100%;
+    color: #ffffff;
+}
+
+.queOne2 {
+    font-size: 30px;
+    color: #d3e3de;
+    padding: 5% 3% 2% 3%;
+    text-align: right;
+}
+
+.queTwo2 {
+    font-size: 20px;
+    color: #bcd3cd;
+    padding-right: 5%;
+    text-align: right;
+}
+
+.contactBarBtn2 {
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    margin: 10% 0 10% 15%;
+}
+
+.contactBarBtn2:hover {
+    border-color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    color: #ffffff;
+}
+
+.contactBtnFont2 {
+    color: #ffffff;
+}
+
+.contactBtnFont2:hover {
+    color: #ffffff;
+}
+
+
 /* toggle switch */
 
 .toggleContainer{
