@@ -154,7 +154,7 @@ a.tooltips span:after {
 
 a:hover.tooltips span {
     visibility: visible;
-    opacity: 0.8;
+    opacity: 0.9;
     left: 100%;
     top: 50%;
     margin-top: -15px;
