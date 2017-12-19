@@ -317,10 +317,108 @@ footer {
     color: #000000;
 }
 
+
+/* toggle switch */
+
 .galleryLabel {
     margin-top: 40px;
     font-size: 25px;
 }
+
+.toggleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 4%; 
+}
+
+.toggleLabel {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+    box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Gallery */
+
+.galleryContainer {
+    margin: auto;
+    text-align: center;
+}
+
+.demoGif {
+    width: 80%;
+}
+
+.galleryTitle {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.galleryDescr {
+    font-size: 16px;
+    width: 70%;
+    margin: auto auto 20px auto;
+}
+
+.galleryLinks {
+    padding-bottom: 45px;
+}
+
 
 /* Contact Bar (Portfolio) */
 .contactBar2 {
@@ -372,87 +470,6 @@ footer {
     color: #ffffff;
 }
 
-
-/* toggle switch */
-
-.toggleContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1%;
-    margin-bottom: 4%; 
-}
-
-.toggleLabel {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 49px;
-    height: 20px;
-    margin-bottom: 0px;
-}
-  
-.switch input {display:none;}
-  
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
-    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.4);
-}
-  
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 12px;
-    width: 15px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-    -webkit-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
-    box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.4);
-}
-  
-input:checked + .slider {
-    background-color: #ccc;
-}
-  
-input:focus + .slider {
-    box-shadow: 0 0 1px #ccc;
-}
-  
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-.galleryContainer {
-    margin: auto;
-    text-align: center;
-}
-
-.demoGif {
-    width: 80%;
-}
-
-
-
 .col, .col-1, .col-10, .col-11, .col-12,
 .col-2, .col-3, .col-4, .col-5, .col-6,
 .col-7, .col-8, .col-9, .col-auto, .col-lg,
@@ -484,7 +501,7 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background: rgb(47, 47, 47);
   }
-
+  
   body {
     width: 100vw;
     overflow-x: hidden;
