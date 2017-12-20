@@ -2,6 +2,7 @@
     background-image: url(../images/desktop.jpg);
     height: 100%; 
     min-height: 100%;
+    background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,34 +19,18 @@
 
 .infoPanel {
     height: 100%;
-    width: 100%;
-    padding: 350px 0px 350px 10%;
+    width: 75%;
+    position: relative;
 }
 
 .squareImg {
-    width: 70%;
-    opacity: .7;
-}
-
-/* .infoBack { */
-    /* background-color: #424242c5; */
-    /* background-color: rgba(200, 202, 255, 0.329);
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    -webkit-box-shadow: 0px 0px 25px -1px rgba(69,69,69,.23);
-    -moz-box-shadow: 0px 0px 25px -1px rgba(69,69,69,.23);
-    box-shadow: 0px 0px 25px -1px rgba(69,69,69,.23);
-} */
-
-.designText {
-    height: 80%;
-    color: #ffffff;
-    font-size: 30px;
-}
-
-.designWork {
-    text-align: center;
+    width: 90%;
+    min-width: 300px;
+    opacity: .8;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -60px;
+    margin-left: 5%;
 }
 
 .btn-light {
@@ -220,6 +205,7 @@ a:hover.tooltips span {
 .contactMe {
     height: 320px;
     background-image: url(../images/desktop.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -288,6 +274,7 @@ footer {
     height: 100px;
     padding-top: 30px;
     background-image: url(../images/desktop.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -300,6 +287,7 @@ footer {
 .headerContainer {
     height: 100%;
     background-image: url(../images/desktop.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -441,6 +429,7 @@ input:checked + .slider:before {
 .contactBar2 {
     min-height: 150px;
     background-image: url(../images/desktop.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
