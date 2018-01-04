@@ -44,3 +44,20 @@ $(document).ready(function(){
     }
   })
 });
+
+$(document).ready(function(){
+  var animEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+  var waypoint = new Waypoint({
+    element: document.getElementById('skills'),
+    handler: function(direction) {
+      $('.basicWaypt').addClass('animated bounceIn');
+      $('.basicWaypt').one(animEnd, function() {
+        $('.workingWaypt').addClass('workingColor animated bounceIn');
+      });
+      $('.workingWaypt').one(animEnd, function() {
+        $('.jediWaypt').addClass('jediColor animated bounceIn');
+      });
+    },
+    offset: '20%' 
+  })
+});
