@@ -61,3 +61,85 @@ $(document).ready(function(){
     offset: '20%' 
   })
 });
+
+// $(document).ready(function(){
+//   var animEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+//   var waypoint = new Waypoint({
+//     element: document.getElementById('skills'),
+//     handler: function(direction) {
+//       $('.skillsNav').addClass('activeNavLink');
+//     },
+//     offset: '20%' 
+//   })
+// });
+
+// $(document).ready(function(){
+//   var animEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+//   var waypoint = new Waypoint({
+//     element: document.getElementById('contact'),
+//     handler: function(direction) {
+//       $('.contactNav').addClass('activeNavLink');
+//     },
+//     offset: 'bottom-in-view' 
+//   })
+// });
+
+$(document).ready(function(){
+  var inview = new Waypoint.Inview({
+    element: $('#skillsWaypt')[0],
+    entered: function(direction) {
+      $('.skillsNav').addClass('activeNavLink');
+    },
+    exit: function(direction) {
+      $('.skillsNav').removeClass('activeNavLink');
+    }
+  })
+});
+
+$(document).ready(function(){
+  var inview = new Waypoint.Inview({
+    element: $('#resumeWaypt')[0],
+    entered: function(direction) {
+      $('.resumeNav').addClass('activeNavLink');
+    },
+    exited: function(direction) {
+      $('.resumeNav').removeClass('activeNavLink');
+    }
+  })
+});
+
+$(document).ready(function(){
+  var inview = new Waypoint.Inview({
+    element: $('#portfolioWaypt')[0],
+    entered: function(direction) {
+      $('.portfolioNav').addClass('activeNavLink');
+    },
+    exited: function(direction) {
+      $('.portfolioNav').removeClass('activeNavLink');
+    }
+  })
+});
+
+$(document).ready(function(){
+  var inview = new Waypoint.Inview({
+    element: $('#galleryWaypt')[0],
+    entered: function(direction) {
+      $('.portfolioNav').addClass('activeNavLink');
+    },
+    exited: function(direction) {
+      $('.portfolioNav').removeClass('activeNavLink');
+    }
+  })
+});
+
+$(document).ready(function(){
+  var inview = new Waypoint.Inview({
+    element: $('#contactWaypt')[0],
+    entered: function(direction) {
+      $('.contactNav').addClass('activeNavLink');
+    },
+    exited: function(direction) {
+      $('.contactNav').removeClass('activeNavLink');
+    }
+  })
+});

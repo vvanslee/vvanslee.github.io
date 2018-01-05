@@ -1,7 +1,7 @@
 .skillLegend {
     width: 100%;
     text-align: center;
-    /* padding-bottom: 5px; */
+    padding-bottom: 1%;
 }
 
 .basicWaypt,
@@ -17,6 +17,10 @@
 
 .jediColor {
     color: #4c77c7;
+}
+
+.activeNavLink {
+    color: #000000 !important;
 }
 
 .fullscreen {
@@ -84,7 +88,7 @@
 }
 
 .skillHeader {
-    margin: 4% 0 1% 0;
+    margin: 3% 0 1% 0;
     font-size: 20px;
 }
 
@@ -184,12 +188,12 @@ a:hover.tooltips span {
 }
 
 .resumeRow {
-    padding: 60px;
+    padding: 40px 60px 40px 60px;
 }
 
 .resumeHeader {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-size: 20px;
 }
 
@@ -221,6 +225,14 @@ a:hover.tooltips span {
 .resumeTitle {
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.resumeLink {
+    color: #648486;
+}
+
+.resumeLink:hover {
+    color: #4c77c7;
 }
 
 .contactMe {

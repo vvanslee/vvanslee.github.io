@@ -14,6 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- waypoints javascript -->
     <script src="assets/javascript/jquery.waypoints.js"></script>
+    <script src="assets/javascript/inview.js"></script>
     <!-- personal javascript -->
     <script src="assets/javascript/app.js"></script>
     <!-- font awesome cdn -->
@@ -35,10 +36,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link" href="#skills">Skills</a>
-                <a class="nav-item nav-link" href="#resume">Resume</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
+                <a class="nav-item nav-link skillsNav" href="#skills">Skills</a>
+                <a class="nav-item nav-link resumeNav" href="#resume">Resume</a>
+                <a class="nav-item nav-link portfolioNav" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link contactNav" href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -59,7 +60,7 @@
 
     <!-- Skills -->
     <a id="skills"></a>
-    <div class="row">
+    <div class="row" id="skillsWaypt">
         <div class="col-sm-12 skillBar">
             <div class="skillHeader">
                 SKILLS
@@ -118,7 +119,7 @@
     
     <!-- Resume -->
     <a id="resume"></a>
-    <div class="row resumeRow">
+    <div class="row resumeRow" id="resumeWaypt">
         <div class="col-sm-12">
             <div class="row">
                 <div class="col-sm-12">
@@ -208,10 +209,10 @@
                                     Consumer facing grocery management app. Maintain your pantry by tracking expiration dates, save money by knowing what you have, and manage your grocery list on the go.
                                 </li>
                                 <li>
-                                    <a href="https://pantryraider.herokuapp.com/" target="_blank">Checkout Pantry Raid for yourself!</a>
+                                    <a class="resumeLink" href="https://pantryraider.herokuapp.com/" target="_blank">Checkout Pantry Raid for yourself!</a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/vvanslee/pantryraid" target="_blank">View the code on Github</a>
+                                    <a class="resumeLink" href="https://github.com/vvanslee/pantryraid" target="_blank">View the code on Github</a>
                                 </li>
                             </ul>
                         </div>
@@ -227,10 +228,10 @@
                                     Streamlined communication app between tenant and landlord. Access important documents, never miss a notification of what's happening in your building/unit, and post work tickets for any service request.
                                 </li>
                                 <li>
-                                    <a href="http://kubo-project.herokuapp.com/" target="_blank">Checkout Kubo for yourself!</a>
+                                    <a class="resumeLink" href="http://kubo-project.herokuapp.com/" target="_blank">Checkout Kubo for yourself!</a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/vvanslee/project2" target="_blank">View the code on Github</a>
+                                    <a class="resumeLink" href="https://github.com/vvanslee/project2" target="_blank">View the code on Github</a>
                                 </li>
                             </ul>
                         </div>
@@ -246,10 +247,10 @@
                                     A party planning website that allows users to input a date and generates multiple suggestions for music fashion and food that was popular during the era of the submitted date.
                                 </li>
                                 <li>
-                                    <a href="https://vvanslee.github.io/Flashback/" target="_blank">Checkout Kubo for yourself!</a>
+                                    <a class="resumeLink" href="https://vvanslee.github.io/Flashback/" target="_blank">Checkout Flashback for yourself!</a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/vvanslee/Flashback" target="_blank">View the code on Github</a>
+                                    <a class="resumeLink" href="https://github.com/vvanslee/Flashback" target="_blank">View the code on Github</a>
                                 </li>
                             </ul>
                         </div>
@@ -261,7 +262,7 @@
 
     <!-- Carousel -->
     <a id="portfolio"></a>
-    <div class="row">
+    <div class="row" id="portfolioWaypt">
         <div class="col-sm-12">
             <div class="headerContainer">
                 <div class="carouselContainer">
@@ -292,7 +293,7 @@
     </div>
 
     <!-- Gallery -->
-    <div class="row galleryContainer">
+    <div class="row galleryContainer" id="galleryWaypt">
         <div class="col-md-12">
             
             <div class="row">
@@ -529,7 +530,7 @@
 
     <!-- Contact -->
     <a id="contact"></a>
-    <div class="row">
+    <div class="row" id="contactWaypt">
         <div class="col-sm-12 contactMe">
             <div class="contactMeHolder">
                 <div class="contactInfo">
