@@ -58,31 +58,9 @@ $(document).ready(function(){
         $('.jediWaypt').addClass('jediColor animated bounceIn');
       });
     },
-    offset: '20%' 
+    offset: '30%' 
   })
 });
-
-// $(document).ready(function(){
-//   var animEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-//   var waypoint = new Waypoint({
-//     element: document.getElementById('skills'),
-//     handler: function(direction) {
-//       $('.skillsNav').addClass('activeNavLink');
-//     },
-//     offset: '20%' 
-//   })
-// });
-
-// $(document).ready(function(){
-//   var animEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-//   var waypoint = new Waypoint({
-//     element: document.getElementById('contact'),
-//     handler: function(direction) {
-//       $('.contactNav').addClass('activeNavLink');
-//     },
-//     offset: 'bottom-in-view' 
-//   })
-// });
 
 $(document).ready(function(){
   var inview = new Waypoint.Inview({
