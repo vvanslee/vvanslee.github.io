@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#mailbutton').click(function(event) {
+  $('a#mailbutton').click(function(event) {
     window.location = "mailto:vvanslee@gmail.com";
   });
 });
